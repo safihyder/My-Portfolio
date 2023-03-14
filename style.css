@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Jost:wght@500&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Jost:wght@500&family=Permanent+Marker&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(68 92 92);
+    /* background: url(./background2.jpg)center center/cover; */
+    font-family: 'Jost', sans-serif;
+    width: 220px;
+    height: 96vh;
+    transition: transform 0.3s ease-in;
+/*     position: absolute; */
+    position: fixed;
+    border-radius: 160px 0px;
+    margin: 12px;
+
+}
+
+.sidebar nav {
+    padding: 19px;
+    font-size: 25px;
+    margin-top: 110px;
+    margin-left: 10px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 15px
+}
+
+.sidebar nav li a:hover {
+    /* background: white; */
+    color: rgb(58 221 210);
+    border-radius: 40px;
+    padding: 7px;
+
+}
+
+.main {
+    /* background:url("./wp2732965.webp")center center/cover; */
+    /* background-color: #ac9999; */
+    background-color: #3a3838;
+    
+    /* background-color: yellow; */
+    width: 100vw;
+    height:100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    background-color: #8e8585;
+    height: 76vh;
+    width: 85vw;
+    margin: 75px auto;
+    box-shadow: 20px 20px 5px #595252;
+    display: flex;
+    justify-content: space-around;
+    border-radius:10px;
+    z-index: -1;
+}
+.devimg{
+  padding:20px 0;
+/*     background-color: #00c9ff;
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+ */
+  }
+.devimg img{
+   height: 390px;
+    background-color: #00c9ff;
+    border-radius: 50%;
+    margin-top: 55px;
+    margin-right: 15px;
+/*    width: 100%; */
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left:10px;
+}
+
+.hello {
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+}
+
+.about {
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    
+}
+
+.name {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+.button{
+    margin:15px;
+}
+ button{
+    padding: 15px 21px;
+    border-radius: 40px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:  #15cb8c;
+}
+ button:hover{
+    background-color: white;
+    color:#15cb8c;
+}
+.sidebar nav ul  li a{
+    text-decoration:none;
+    color:white;
+}
+p{
+    /* font-family: 'Indie Flower', cursive; */
+    font-size:15px;
+    margin-top:10px;
+}
+.contact-heading{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 80px;
+
+
+}
+.contact{
+    /* background-color: antiquewhite; */
+    background-color: #3a3838;
+color:white;
+}
+
+.mb-3{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 420px;
+    font-family: 'Permanent Marker', cursive;
+
+    
+}
+input{
+    width:240px;
+    border-radius:5px;
+    padding:5px;
+background-color:transparent;
+}
+#textarea{
+    width:300px;
+    border-radius:10px;
+    background-color:transparent;
+    
+}
+.btn-primary{
+    margin-left: 630px;
+}
+.blogItem{
+    margin:20px;
+}
+.blogItem h2{
+    color:rgb(70, 37, 37);
+    font-family: 'Permanent Marker', cursive;
+}
+.blogItem p{
+    font-family: 'Indie Flower', cursive;
+}
+.blogContainer h1{
+    text-align: center;
+    background-color: #ac9999;
+    border-radius: 100px;
+    width: 475px;
+    color: #3a3636;
+    margin: 20px auto;
+    font-size: 50px;
+    border: 30px solid #3a3636;
+
+}
+.blogItem button{
+background-color: #29b4bf;
+color:black;
+font-size: 12px;
+padding:9px;
+}
+.blogItem button:hover{
+background-color:rgb(41, 95, 105);
+color:black;
+}
+.aboutMe{
+    margin:20px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 500;
+    background-color: #8e8585;
+    padding-left:18px;
+    border-radius:10px;
+
+}
+.aboutMe h1,h2{
+    color: black;
+    font-family: cursive;
+    margin-top: 70px;
+    margin-left:40px;
+
+}
+.aboutMe{
+    margin-top:10px;
+    height: 35rem;
+}
+.aboutMe p{
+    font-size: 18px;
+    background-color: #ac9999;
+    width: 810px;
+    box-shadow: 5px 5px 5px #595252;
+
+    border-radius: 10px;
+}
+
+.skills{
+    background-color: #ac9999;
+    border-radius: 10px;
+    width: 20rem;
+    box-shadow: 5px 5px 5px #595252;
+}
+.aboutMe .skill_html{
+    width:200px;
+    height:25px;
+    background-color: red;
+}
+.aboutMe .skill_css{
+    width:170px;
+    height:25px;
+    background-color:rgb(35, 18, 221);
+}
+.aboutMe .skill_js{
+    width:145px;
+    height:25px;
+    background-color: yellow;
+}
+.aboutMe .skill_react{
+    width:73px;
+    height:25px;
+    background-color:aqua;
+}
+.skillbox{
+display: flex;
+padding:10px;
+}
+.sidebar-go{
+    transform: translate(-250px, 0px);
+}
+.hamburger{
+    font-size: 30px;
+    top:5px;
+    position: absolute;
+}
+.fa-xmark{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left: 200px;
+    top: 15px;
+}
+.fa-bars{
+    color:white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+
+@media(max-width:680px){
+    *{
+        background-color:#4c4141;
+    }
+    .devimg img {
+        display: none;
+    
+    }
+    button {
+        font-size: 10px;
+        
+    }
+    .infoContainer {
+        box-shadow: 0px 0px 5px #595252;
+        
+    }
+ .sidebar {
+    background-color: rgb(68 92 92);
+    /* background: url(./background2.jpg)center center/cover; */
+    font-family: 'Jost', sans-serif;
+    width: 100vw;
+    height: 65vh;
+    transition: transform 0.3s ease-in;
+    /* position: unset; */
+    position: fixed;
+    border-radius: 0;
+    margin: 0px;
+    transform: translate(0px, 0px);
+}
+  .sidebar nav {
+    padding: 19px;
+    font-size: 25px;
+    margin-top: 130px;
+    margin-left: 0px;
+    text-align: center;
+}
+  .sidebar-go {
+    transform: translate(0px, -555px);
+  }
+  .blogContainer h1 {
+    text-align: center;
+    background-color: #ac9999;
+    border-radius: 100px;
+    width: 20rem;
+    color: #3a3636;
+    margin: 20px auto;
+    font-size: 3rem;
+    border: 30px solid #3a3636;
+}
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
